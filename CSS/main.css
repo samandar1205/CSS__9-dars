@@ -1,0 +1,81 @@
+/*:root{
+    --matnRangi:white;
+    --orqaFoni:#c22c8a;
+    --engi: 200%;
+    --balandligi: 100%;
+    --display: block;
+}*/
+/*body{
+    background-color: var(--orqaFoni);
+    color: var(--matnRangi);
+}*/
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+}
+.col{
+    width: 30%;
+    float: left;
+    display: block;
+    margin: 20px 15px;
+}
+.img-box{
+    width: 100%;
+    height: 250px;
+    display: block;
+
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.clear{
+    clear: both;
+}
+.text{
+    column-count:2;
+    column-gap: 1px;
+    column-rule: 2px solid red;
+    column-width: 250px;
+}
+
+@media (min-width: 240px) and (max-width: 570px) {
+    .wrap{
+        width: 100%;
+        background-color: green;
+    }
+}
+@media (min-width: 570px) and (max-width: 780px){
+    .wrap{
+        width: 100%;
+        background-color: blueviolet;
+    }
+}
+@media (min-width: 780px) and (max-width: 990px){
+    .wrap{
+        width: 100%;
+        background-color: lawngreen;
+    }
+}
+@media (min-width: 990px) and (max-width: 1200px){
+    .wrap{
+        width: 100%;
+        background-color: lightseagreen;
+    }
+}@media (min-width: 1200px) {
+    .wrap{
+        width: 100%;
+        background-color: yellow;
+    }
+}
+
+
+
+
+
+
